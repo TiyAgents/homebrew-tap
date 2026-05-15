@@ -1,14 +1,14 @@
 cask "quotax" do
-  version "0.1.4"
+  version "0.1.5"
 
   on_arm do
     url "https://github.com/tiylabs/zenmux-quotax/releases/download/#{version}/Quotax_#{version}_aarch64.dmg"
-    sha256 "7f21c5d88461ca9fac9959c8343a1ecc04123932f13700c90614ba13f6884388"
+    sha256 "fd1aead23383849d611e9733edc1f5924f95161aea36fde76b42bb6f11e20a23"
   end
 
   on_intel do
     url "https://github.com/tiylabs/zenmux-quotax/releases/download/#{version}/Quotax_#{version}_x86_64.dmg"
-    sha256 "a54f8689c2ed55128649eccd93633287de2c587edbcbc09d22abd3cf30f10276"
+    sha256 "e9b87d4e0d669fd67a064606282badb69b12725a1eabaef80e7542223b76f9d1"
   end
 
   name "Quotax"
