@@ -1,14 +1,14 @@
 cask "tiycode" do
-  version "0.3.17"
+  version "0.3.18"
 
   on_arm do
     url "https://github.com/tiylabs/tiycode/releases/download/#{version}/TiyCode_#{version}_aarch64.dmg"
-    sha256 "ffc15334ecc32771034d15a2db82a8ae60b985aa2f48e4e8100e997b1f10271d"
+    sha256 "f57c1d2b54cc4d12190588948daecd8dda867f0fb32e786baf3d3bd7b781edaa"
   end
 
   on_intel do
     url "https://github.com/tiylabs/tiycode/releases/download/#{version}/TiyCode_#{version}_x64.dmg"
-    sha256 "61f519699aeca3d4aefebf83b8029a00418884454d08548840eb4e9f8e87b59c"
+    sha256 "90daeecdef41514c9811b5ab7ffe6d1027e84b17f998882cc36588050997fd4d"
   end
 
   name "TiyCode"
